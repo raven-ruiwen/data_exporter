@@ -46,7 +46,7 @@ func main() {
 	}
 
 	curlCmd := string(data)
-	curlCmd = strings.Replace(curlCmd, "curl 'https://app-api.dune.com/v1/graphql'", "curl 'https://app-api.dune.com/v1/graphql' -o resp.json", -1)
+	curlCmd = strings.Replace(curlCmd, "curl '/v1/graphql'", "curl '/v1/graphql' -o resp.json", -1)
 
 	cmd := exec.Command("bash", "-c", curlCmd)
 
