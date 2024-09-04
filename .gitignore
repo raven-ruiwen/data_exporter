@@ -2,6 +2,5 @@
 logs/
 go.mod
 go.sum
-main.go
 run.sh
 resp.json
