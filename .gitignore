@@ -1,6 +1,5 @@
 .idea
 logs/
-go.mod
 go.sum
 run.sh
 resp.json
